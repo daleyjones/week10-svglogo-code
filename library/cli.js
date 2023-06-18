@@ -29,26 +29,22 @@ class CLI {
 
     switch (options.shape) {
       case 'circle':
-        const circle = new Circle(options.shapeColour);
-        return new SVG(circle, logoText);
+        
+          const circle = new Circle(options.shapeColour);
+          return new SVG(circle, logoText);
+        
       case 'square':
-        const square = new Square(options.shapeColour);
-        return new SVG(square, logoText);
+        
+          const square = new Square(options.shapeColour);
+          return new SVG(square, logoText);
+        
       case 'triangle':
-        const triangle = new Triangle(options.shapeColour);
-        return new SVG(triangle, logoText);
+        
+          const triangle = new Triangle(options.shapeColour);
+          return new SVG(triangle, logoText);
+        
     }
   }
 }
-
-module.exports =CLI;
-
-
-
-
-
-
-}
-
 
 module.exports = CLI;

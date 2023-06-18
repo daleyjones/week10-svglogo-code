@@ -1,4 +1,4 @@
-const CLI = require('./lib/ci.js');
+const CLI = require('./library/cli.js');
 
 const cli = new CLI();
 
