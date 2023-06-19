@@ -1,5 +1,5 @@
 ## SVG Logo Maker
-The SVG Logo Maker is a powerful tool that simplifies the process of creating customizable SVG logos using JavaScript, JSON, Node.js, and package.json. With this tool, you can generate logos consisting of various shapes, colors, and text, all in the scalable vector graphics (SVG) format.
+The SVG Logo Maker is a powerful tool that simplifies the process of creating customizable SVG logos using HTML, JavaScript, JSON, Node.js, and package.json. With this tool, you can generate logos consisting of various shapes, colors, and text, all in the scalable vector graphics (SVG) format.
 
 ## Features
 Choose from a variety of shapes, including circles, squares, and triangles.
