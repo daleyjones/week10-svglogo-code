@@ -56,8 +56,12 @@ logo.generateSVG("logo.svg");
 
 5. Feel free to experiment with different shapes, colors, and text options to create your desired logo.
 
+
+## Demonstration
+Check out the video demonstration [here](https://drive.google.com/file/d/16bTA0C2_Q6jet3oCYfjWGc4aXpgLOBOq/view).
+
 ## Credits
-Made by Daley Jones, Check out the video demonstration [here](https://drive.google.com/file/d/16bTA0C2_Q6jet3oCYfjWGc4aXpgLOBOq/view).
+Made by Daley Jones.
 
 ## License
 This project is licensed under the MIT License.
