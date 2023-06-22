@@ -1,5 +1,5 @@
-const { SVG, LogoText } = require("../svg");
-const { Square, Circle, Triangle } = require("../shapes");
+const { SVG, LogoText } = require("./svg");
+const { Square, Circle, Triangle } = require("./shapes");
 
 test("should render a 300 x 200 svg element", () => {
   const color = "red";
