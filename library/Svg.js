@@ -5,25 +5,26 @@ class LogoText {
   }
 
   render() {
-    return ` <text x="50%" y="50%" font-size="4rem" alignment-baseline="middle" text-anchor="middle" fill="${this.color}">${this.text}</text>`;
-   
+    return `<text x="50%" y="50%" font-size="4rem" alignment-baseline="middle" text-anchor="middle" fill="${this.color}">${this.text}</text>`;
   }
 }
 
 class SVG {
-  constructor(shape, logoText) {
-    this.shape = shape;
-    this.logoText = logoText;
+  constructor(...shapes) {
+    this.shapes = shapes;
   }
 
   render() {
-    const svg = `<svg version="1.1" width="300" height="200" xmlns="http://www.w3.org/2000/svg">
-    ${this.shape.render()}
-    ${this.logoText.render()}
-    </svg>`;
-
+    const sortedShapes = this.shapes.sort((a, b) => a.priority - b.priority);
+    const shapeElements = sortedShapes.map(shape => shape.render()).join('');
+    const svg = `<svg version="1.1" width="300" height="200" xmlns="http://www.w3.org/2000/svg">${shapeElements}</svg>`;
     return svg;
   }
 }
 
+module.exports = SVG;
+
+
+
 module.exports = { LogoText, SVG };
+
